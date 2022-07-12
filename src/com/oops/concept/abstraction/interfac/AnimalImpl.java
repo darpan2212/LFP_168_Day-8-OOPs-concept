@@ -9,12 +9,12 @@ public class AnimalImpl {
 		dog.eat();
 		dog.sleep();
 		
-		Lion lion = new Lion();
+		Animal lion = new Lion();
 		
 		lion.eat();
 		lion.sleep();
 		lion.running();
-		lion.doHunting();
+//		lion.doHunting();
 		
 		System.out.println(Lion.livesIn);
 	}
